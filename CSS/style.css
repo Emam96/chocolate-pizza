@@ -66,10 +66,12 @@ header h2 {
 .links img {
   opacity: 0.8;
   transition: 0.3s;
+  
 }
 
 .links img:hover {
   opacity: 1;
+  filter: invert(1);
 }
 
 hr {
