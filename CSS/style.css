@@ -163,37 +163,63 @@ fieldset {
 form #fi {
   font-size: 1.5pc;
   position: absolute;
-  display: flex;
-
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   top: 2rem;
-  left: 3.2rem;
+  left: 4rem;
   font-family: "Patrick Hand", cursive;
   color: hsla(36, 27%, 31%, 0.761);
-
-  z-index: 1;
+width: 20rem;
+  
 }
 
-#fi label {
+#fi label, input {
   padding-top: 7px;
+ display: inline-block;
 }
+
+
+
+
+
+
+input[type=checkbox]:checked + label {
+  
+  text-decoration: line-through;
+} 
+
+
+
+
+
+
+
 
 form #se {
   font-size: 1.5pc;
   position: absolute;
-  display: flex;
-
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   top: 2rem;
   right: 2.5rem;
   font-family: "Patrick Hand", cursive;
   color: hsla(36, 27%, 31%, 0.761);
+  width: 30rem;
 }
 
 #se label {
+ 
   padding-top: 7px;
-  z-index: 1;
+  display: inline-block;
 }
+
+
+
+
+
+
+
+
 
 .hr2 {
   margin-top: 2rem;
